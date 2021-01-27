@@ -15,6 +15,7 @@
 .body {
   font-family: Roboto;
   letter-spacing: 0.03em;
+  margin: 0px;
 }
 
 ul {
@@ -353,11 +354,11 @@ a {
   padding-right: 8px;
 }
 
-.projects-list .container {
-}
-
 .discription {
-  padding: 20px, 24px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .projects-list {
@@ -366,15 +367,20 @@ a {
   margin-top: 34px;
   padding: 0px;
   margin-bottom: 94px;
-}
-.projects-list:nth-child(3n) {
-  padding: 0px;
-  width: calc((100% - 2 * 30px) / 3);
-  margin-right: 30px;
+
+  margin-left: -30px;
 }
 
 .projects-list-item {
-  width: calc((100% - 2 * 30px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.card {
+}
+
+.card-thumb {
 }
 
 .projects-list-title {

@@ -188,7 +188,7 @@ a {
 }
 
 .about-list-item {
-  width: (calc(100% - 3 * 30px) / 4);
+  width: calc((100% - 3 * 30px) / 4);
 }
 
 .about-list-item:not(:last-child) {
@@ -198,6 +198,7 @@ a {
 .about-list-item-title,
 .about-list-item-discription {
   margin: 0 0;
+  margin-bottom: 10px;
 }
 
 .about-list-item-title {
@@ -218,6 +219,7 @@ a {
 
 /*---WORKS---*/
 .works {
+  padding-top: 0px;
 }
 
 .works-title {
@@ -235,6 +237,7 @@ a {
 .works-list {
   display: flex;
   margin: 0px;
+  padding-left: 0px;
 }
 
 .works-list-item {
@@ -253,17 +256,23 @@ a {
   text-align: center;
   color: var(--primery-black);
   margin: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-list {
   margin: 0px;
   display: flex;
+  margin-left: -30px;
   padding-bottom: 94px;
+  padding-left: 0px;
 }
 
-.team-list-item:not(:last-child) {
-  padding-right: 30px;
+.team-list-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-member {
@@ -375,9 +384,9 @@ a {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
-}
-
-.card {
+  outline: 10px;
+  border: 1px solid #eeeeee;
+  max-width: 370px;
 }
 
 .card-thumb {
@@ -389,7 +398,6 @@ a {
   line-height: 2em;
   letter-spacing: 0.06em;
   margin: 0px;
-
   color: var(--primery-black);
 }
 

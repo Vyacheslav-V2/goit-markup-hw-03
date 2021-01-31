@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -44,7 +44,7 @@ a {
   padding: 0px;
   display: flex;
   align-items: center;
-  margin-left: auto;
+  margin-left: 331px;
 }
 
 /*BUTTON*/
@@ -62,6 +62,7 @@ a {
 
 .filter-botton {
   display: inline-block;
+
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
@@ -115,6 +116,7 @@ a {
 
 .navigation-list-item-link,
 .contacts-list-item-link {
+  display: block;
   padding: 32px 0;
 }
 
@@ -214,6 +216,7 @@ a {
   font-size: 14px;
   line-height: 1.71em;
   color: var(--primery-grey);
+  margin-bottom: 0px;
 }
 /*ABOUT END*/
 
@@ -248,6 +251,10 @@ a {
 /*---WORKS END---*/
 
 /*---TEAM---*/
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .team-title {
   font-weight: 700;
@@ -344,10 +351,19 @@ a {
 /*----------------------------------------------STUDIO END------------------*/
 
 /*-----------------------------------PORTFOLIO--------------------*/
+.portfolio-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-header {
+  border-bottom: 1px solid #ececec;
+}
 
 /*--PROJECTS--*/
 .page-title {
-  display: none;
+  visibility: hidden;
+  margin: 0px;
 }
 .filter-botoms .container {
 }
@@ -356,7 +372,8 @@ a {
   display: flex;
   justify-items: center;
   margin: 0px;
-  margin-top: 94px;
+  margin-top: 57px;
+  margin-bottom: 50px;
   padding-left: 295px;
 }
 .filter-botoms :not(:last-child) {

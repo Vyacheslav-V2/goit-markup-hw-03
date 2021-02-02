@@ -82,7 +82,7 @@ a {
 }
 /*---HEADER---*/
 
-.main-header .container {
+.studio-header .container {
   display: flex;
   align-items: center;
 }
@@ -156,9 +156,18 @@ a {
 
 /*HERO*/
 .hero {
+  margin: auto;
   padding-top: 200px;
   padding-bottom: 210px;
   background-color: #2f303a;
+  /*background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/hero-foto.jpg");*/
+  height: 600px;
+  max-width: 1600px;
   text-align: center;
 }
 
@@ -270,7 +279,7 @@ a {
   margin: 0px;
   display: flex;
   margin-left: -30px;
-  padding-bottom: 94px;
+  padding-bottom: 0px;
   padding-left: 0px;
 }
 
@@ -283,6 +292,7 @@ a {
 }
 
 .team-member {
+  margin-right: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19em;
@@ -306,6 +316,8 @@ a {
 .footer {
   display: flex;
   background-color: #2f303a;
+  max-width: 1600px;
+  margin: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -358,6 +370,8 @@ a {
 
 .portfolio-header {
   border-bottom: 1px solid #ececec;
+  max-width: 1600px;
+  margin: auto;
 }
 
 /*--PROJECTS--*/

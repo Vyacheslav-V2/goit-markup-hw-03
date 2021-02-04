@@ -394,7 +394,7 @@ a {
   visibility: hidden;
   margin: 0px;
 }
-.filter-botoms .container {
+.filter-botons .container {
 }
 
 .filter-botoms {
@@ -419,7 +419,7 @@ a {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 34px;
+  margin-top: 0px;
   padding: 0px;
   margin-bottom: 94px;
 
@@ -433,6 +433,16 @@ a {
   outline: 10px;
   border: 1px solid #eeeeee;
   max-width: 370px;
+}
+
+.projects-list-item:nth-child(1) {
+  margin-top: 0px;
+}
+.projects-list-item:nth-child(2) {
+  margin-top: 0px;
+}
+.projects-list-item:nth-child(3) {
+  margin-top: 0px;
 }
 
 .card-thumb {

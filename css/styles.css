@@ -44,7 +44,7 @@ a {
   padding: 0px;
   display: flex;
   align-items: center;
-  margin-left: 331px;
+  margin-left: 330px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -55,7 +55,8 @@ a {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87em;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: var(--primery-white);
   background-color: var(--primery-blue);
   letter-spacing: 0.06em;
@@ -69,7 +70,7 @@ a {
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62em;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
@@ -98,7 +99,8 @@ a {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #000000;
   margin-right: 93px;
   padding: 24px 0px;
@@ -128,7 +130,7 @@ a {
 .navigation-list-item-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primery-black);
 }
@@ -149,7 +151,7 @@ a {
 .contacts-list-item-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primery-grey);
 }
@@ -162,7 +164,7 @@ a {
 /*HERO*/
 .hero {
   margin: auto;
-  margin-bottom: 94px;
+
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
@@ -182,7 +184,8 @@ a {
   margin: 0 auto 30px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -193,7 +196,8 @@ a {
 /*ABOUT*/
 .about,
 .works {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-title {
@@ -221,7 +225,8 @@ a {
 .about-list-item-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14em;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   color: var(--primery-black);
   text-transform: uppercase;
 }
@@ -229,7 +234,7 @@ a {
 .about-list-item-discription {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71em;
+  line-height: 1.71;
   color: var(--primery-grey);
   margin-bottom: 0px;
 }
@@ -243,7 +248,8 @@ a {
 .works-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16em;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--primery-black);
   padding-bottom: 0px;
@@ -277,8 +283,9 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17em;
+  line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--primery-black);
   margin: 0px;
   margin-bottom: 50px;
@@ -301,22 +308,26 @@ a {
 }
 
 .team-member {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: 0px;
   margin-right: auto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19em;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--primery-black);
 }
 
 .team-member-discriptin {
   margin-top: 0px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  margin: 0px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19em;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--primery-grey);
 }
@@ -340,7 +351,8 @@ a {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--primery-white);
   padding: 0;
 }
@@ -350,9 +362,10 @@ a {
 }
 
 .address-discription {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--primery-white);
   margin: 0px;
   margin-bottom: 10px;
@@ -365,12 +378,14 @@ a {
 }
 
 .address-list-item {
+  padding-bottom: 9px;
 }
 
 .address-link {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /*---FOOTER END---*/
@@ -399,11 +414,11 @@ a {
 
 .filter-botoms {
   display: flex;
-  justify-items: center;
+  justify-content: center;
   margin: 0px;
-  margin-top: 57px;
+  padding-top: 57px;
   margin-bottom: 50px;
-  padding-left: 295px;
+  padding-left: 0px;
 }
 .filter-botoms :not(:last-child) {
   padding-right: 8px;
@@ -427,6 +442,8 @@ a {
 }
 
 .projects-list-item {
+  display: flex;
+  justify-content: center;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
@@ -451,7 +468,7 @@ a {
 .projects-list-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2em;
+  line-height: 2;
   letter-spacing: 0.06em;
   margin: 0px;
   color: var(--primery-black);

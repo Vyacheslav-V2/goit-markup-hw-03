@@ -12,10 +12,8 @@
   --primery-grey: #757575;
 }
 
-.body {
+body {
   font-family: Roboto;
-  letter-spacing: 0.03em;
-  margin: 0px;
 }
 
 ul {
@@ -59,7 +57,6 @@ a {
   letter-spacing: 0.06em;
   color: var(--primery-white);
   background-color: var(--primery-blue);
-  letter-spacing: 0.06em;
   border-radius: 4px;
   border: 0;
 }
@@ -404,6 +401,11 @@ a {
   margin: auto;
 }
 
+.portfolio-main {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+
 /*--PROJECTS--*/
 .page-title {
   visibility: hidden;
@@ -416,7 +418,7 @@ a {
   display: flex;
   justify-content: center;
   margin: 0px;
-  padding-top: 57px;
+
   margin-bottom: 50px;
   padding-left: 0px;
 }
@@ -436,7 +438,6 @@ a {
   flex-wrap: wrap;
   margin-top: 0px;
   padding: 0px;
-  margin-bottom: 94px;
 
   margin-left: -30px;
 }

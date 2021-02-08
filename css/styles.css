@@ -304,11 +304,15 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-member {
+.team-container {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.team-member {
   margin: 0px;
   margin-right: auto;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -319,7 +323,7 @@ a {
 
 .team-member-discriptin {
   margin-top: 0px;
-  padding-bottom: 30px;
+
   margin: 0px;
   font-weight: 400;
   font-size: 16px;
@@ -375,7 +379,7 @@ a {
 }
 
 .address-list-item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .address-link {
@@ -402,15 +406,26 @@ a {
 }
 
 .portfolio-main {
-  padding-top: 57px;
-  padding-bottom: 57px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*--PROJECTS--*/
-.page-title {
-  visibility: hidden;
-  margin: 0px;
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 .filter-botons .container {
 }
 
@@ -472,6 +487,7 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   margin: 0px;
+  margin-bottom: 4px;
   color: var(--primery-black);
 }
 
